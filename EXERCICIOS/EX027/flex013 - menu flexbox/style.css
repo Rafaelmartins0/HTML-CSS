@@ -17,7 +17,7 @@ header {
     background-color: rgb(116, 116, 116);
     color: white;
     padding: 10px;
-
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -26,6 +26,7 @@ header {
 
 header h1 {
     flex: 0 0 200px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.685) ;
 }
 
 header nav{
@@ -42,12 +43,15 @@ header nav{
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.575);
  }
 
  header nav a:hover{
     background-color: white;
     color: black;
     transition: background-color .5s;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.575);
  }
 
 main{
