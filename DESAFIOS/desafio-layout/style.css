@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    height: 96vh;
+    width: 98vw;
+    border: 2px dotted red;
+    display: grid;
+    grid-template: repeat(7, 100px) / repeat(10, auto);
+    gap: 5px;
+    text-align: center;
+}
+
+header.caixa1{
+    background-color: blue;
+    grid-area: 1/1/2/-1;
+}
+
+nav.caixa2{
+    background-color: red;
+    grid-area: 2/1/2/-1;
+}
+
+main.caixa3{
+    background-color: green;
+    grid-area: 3 / 1 /6 /-3;
+}
+
+aside.caixa4{
+    background-color: yellow;
+    grid-area: 3/ 9 / -3 / -1;
+}
+
+footer.caixa5{
+    background-color: purple;
+    grid-area: 6/1/-2/-1;
+
+}
