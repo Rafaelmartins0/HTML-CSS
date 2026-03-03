@@ -1,0 +1,172 @@
+@charset "UTF8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-image: url(imagens/imagem\ de\ fundo\ tela\ de\ login\ netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: "";
+    background-color: rgb(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.logo img {
+    height: 45px;
+    width: 167px;
+}
+
+.header {
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.login_body {
+    padding: 30px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 556px;
+    margin-left: 50%;
+    background-color: rgb(0, 0, 0, .75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.login_body h2 {
+    color: white;
+    font-size: 32px;
+}
+
+.login_body input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login_body input:hover {
+    background-color: #444;
+}
+
+.login_body button {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.login_body button:hover{
+    background-color: #ff2b36;
+    cursor: pointer;
+}
+
+.input_box {
+    margin-bottom: 25px;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    align-items: ;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.support input {
+    width: 15px;
+    height: 15px;
+}
+
+.remember{
+    display: flex;
+}
+
+.remember span {
+    margin-right: 5px;
+    height: 25px;
+}
+
+.help a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.help a:hover {
+    text-decoration: underline;
+}
+
+.login_facebook {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+}
+
+.login_facebook span {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.login_facebook a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.login_facebook a:hover {
+    text-decoration: underline;
+}
+
+.sign_up {
+    color: #737373;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.sign_up a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.sign_up a:hover{
+    text-decoration: underline;
+}
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #071eb;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
