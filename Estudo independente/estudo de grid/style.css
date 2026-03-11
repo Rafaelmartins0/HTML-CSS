@@ -21,7 +21,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgb(104, 83, 83);
     padding: 20px;
 }
 
